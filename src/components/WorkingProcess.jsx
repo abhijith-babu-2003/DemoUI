@@ -51,7 +51,7 @@ const WorkingProcess = () => {
         <img
           src="https://images.pexels.com/photos/19089106/pexels-photo-19089106.jpeg"
           alt="Right Side Illustration"
-          className="w-full sm:w-4/5 md:w-auto max-w-lg h-auto rounded-lg object-cover"
+          className="w-full sm:w-4/5 md:w-auto max-w-lg h-auto rounded-lg object-cover" loading="lazy"
         />
       </div>
     </section>

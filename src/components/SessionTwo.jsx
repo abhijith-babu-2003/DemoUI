@@ -16,7 +16,7 @@ const SessionTwo = () => {
         <img
           src={sessionOne}
           alt="Client Testimonial"
-          className="w-full md:w-1/2 rounded-xl shadow-lg object-cover"
+          className="w-full md:w-1/2 rounded-xl shadow-lg object-cover" loading="lazy"
         />
         <p className="text-gray-700 text-base sm:text-lg md:text-xl font-medium leading-relaxed md:leading-loose text-center md:text-left">
           "Ovanta team quickly understood our requirements and were proactive and flexible 

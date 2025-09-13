@@ -27,7 +27,7 @@ const Footer = () => {
           <img
             src={FooterIcon}
             alt="Footer Icon"
-            className="mx-auto sm:mx-0 mb-6 w-32 h-auto"
+            className="mx-auto sm:mx-0 mb-6 w-32 h-auto" loading="lazy"
           />
         </div>
       </div>

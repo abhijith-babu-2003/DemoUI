@@ -12,7 +12,7 @@ const About = () => {
           <p className="uppercase text-sm tracking-widest font-medium text-gray-600 mb-6">
             --- About Company
           </p>
-          <img src={star} alt="Company Star" className="max-w-full h-auto" />
+          <img src={star} alt="Company Star" className="max-w-full h-auto" loading="lazy" />
         </div>
 
         {/* Right Side */}

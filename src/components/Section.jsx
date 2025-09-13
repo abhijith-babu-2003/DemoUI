@@ -7,7 +7,7 @@ const Section = () => {
       <img
         src="https://images.pexels.com/photos/603189/pexels-photo-603189.jpeg"
         alt="Background"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover" loading="lazy"
       />
 
       {/* Optional Overlay for better readability */}

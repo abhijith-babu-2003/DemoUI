@@ -21,7 +21,7 @@ const BackGround = () => {
         <img
           src={earth}
           alt="Earth Illustration"
-          className="w-48 sm:w-64 md:w-80 object-contain drop-shadow-lg"
+          className="w-48 sm:w-64 md:w-80 object-contain drop-shadow-lg" loading="lazy"
         />
         <p className="mt-3 text-sm sm:text-base md:text-sm text-gray-500 max-w-xs sm:max-w-sm md:max-w-xs leading-relaxed">
           Identify the key barriers that prevent your business from reaching its full potential. 

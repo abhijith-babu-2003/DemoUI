@@ -27,7 +27,7 @@ const Projects = () => {
               <img
                 src="https://images.pexels.com/photos/9574453/pexels-photo-9574453.jpeg"
                 alt="Digital Printing Project"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy"
               />
             </div>
             <h2 className="text-black text-2xl sm:text-3xl lg:text-4xl font-bold mb-1 sm:mb-2">
@@ -44,7 +44,7 @@ const Projects = () => {
               <img
                 src="https://images.pexels.com/photos/3391128/pexels-photo-3391128.jpeg"
                 alt="Frame Project"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy"
               />
             </div>
             <h2 className="text-black text-2xl sm:text-3xl lg:text-4xl font-bold mb-1 sm:mb-2">

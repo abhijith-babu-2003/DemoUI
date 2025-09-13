@@ -35,7 +35,7 @@ const Service = () => {
           <img
             className="w-full lg:w-96 h-64 sm:h-80 rounded-3xl object-cover flex-shrink-0"
             src="https://images.pexels.com/photos/16555682/pexels-photo-16555682.jpeg"
-            alt="Service Illustration"
+            alt="Service Illustration" loading="lazy"
           />
 
           {/* Services List */}
