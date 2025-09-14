@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 
 // Lazy import components
-const Header = lazy(() => import('../components/Header'))
+
 const BackGround = lazy(() => import('../components/BackGround'))
 const Section = lazy(() => import('../components/Section'))
 const About = lazy(() => import('../components/About'))
@@ -17,7 +17,6 @@ const LandingPage = () => {
   return (
     <Suspense fallback={<div className="text-center p-10">Loading...</div>}>
       <div>
-        <Header />
         <BackGround />
         <Section />
         <About />
