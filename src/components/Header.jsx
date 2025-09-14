@@ -45,7 +45,7 @@ const Header = () => {
         <div className="flex items-center gap-3">
           {/* WhatsApp Icon */}
           <a
-           href="https://wa.me/918590688561"
+           href="https://wa.me/919207257133"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-500 text-2xl hover:text-green-600"
