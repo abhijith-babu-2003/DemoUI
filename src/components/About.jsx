@@ -1,6 +1,6 @@
 import React from "react";
-import star from '../assets/Group.jpg';
-import clients from '../assets/Clients.jpg';
+import star from '../assets/Group.webp';
+import clients from '../assets/Clients.webp';
 
 const About = () => {
   return (

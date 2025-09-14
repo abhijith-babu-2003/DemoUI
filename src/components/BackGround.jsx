@@ -1,5 +1,5 @@
 import React from "react";
-import earth from '../assets/Mask group.jpg';
+import earth from '../assets/Maskgroup.webp';
 
 const BackGround = () => {
   return (

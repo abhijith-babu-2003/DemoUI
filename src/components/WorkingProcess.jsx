@@ -1,7 +1,7 @@
 import React from 'react';
-import groupOne from '../assets/Groupone.jpg';
-import groupTwo from '../assets/GroupTwo.png';
-import groupThree from '../assets/GroupThree.png';
+import groupOne from '../assets/Groupone.webp';
+import groupTwo from '../assets/GroupTwo.webp';
+import groupThree from '../assets/GroupThree.webp';
 
 const steps = [
   {

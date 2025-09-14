@@ -1,5 +1,5 @@
 import React from 'react';
-import sessionOne from '../assets/SessionOne.png';
+import sessionOne from '../assets/SessionOne.webp';
 
 const awardsData = [
   { award: 'Winner - Best eCommerce Websites', year: '2020', location: 'NY-America' },
