@@ -46,7 +46,7 @@ const Header = () => {
         {isOpen ? <AiOutlineCloseCircle /> : <HiMenuAlt3 />}
       </button>
 
-      {/* Mobile Dropdown Menu */}
+
       {isOpen && (
         <div id="mobile-menu" className="absolute top-16 left-0 w-full bg-white shadow-md py-6 px-8 flex flex-col gap-4 z-50">
           <ul className="flex flex-col gap-4 text-base font-medium text-gray-800">

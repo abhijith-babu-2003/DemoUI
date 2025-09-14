@@ -1,11 +1,12 @@
 import React from "react";
 import { BsArrowUpRightCircle } from "react-icons/bs";
+import pexelBG from '../assets/pexelsBG.webp'
 
 const Service = () => {
   return (
     <section className="bg-black text-white min-h-screen px-4 sm:px-8 lg:px-16 py-12">
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
+   
         <div className="flex flex-col lg:flex-row justify-between items-start mb-12 lg:mb-16 gap-8 lg:gap-0">
           <div className="flex-1">
             <p className="text-gray-400 text-sm mb-4 tracking-wider">
@@ -22,19 +23,18 @@ const Service = () => {
             </p>
           </div>
 
-          {/* View Our Works Button */}
+    
           <button className="flex items-center gap-2 bg-white text-black px-4 sm:px-6 py-2 sm:py-3 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300 self-start">
             View our works
             <BsArrowUpRightCircle className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
         </div>
 
-        {/* Content Section */}
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
-          {/* Image */}
+       
           <img
             className="w-full lg:w-96 h-64 sm:h-80 rounded-3xl object-cover flex-shrink-0"
-            src="https://images.pexels.com/photos/16555682/pexels-photo-16555682.jpeg"
+            src={pexelBG}
             alt="Service Illustration" loading="lazy"
           />
 

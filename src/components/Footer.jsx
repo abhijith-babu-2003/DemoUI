@@ -8,14 +8,14 @@ import { FaSquareBehance } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-10 font-sans ">
-      {/* Top Section */}
+
       <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-start justify-between">
-        {/* Left side */}
+  
         <h1 className="text-7xl mb-4 sm:mb-0 flex-1 font-bold">
           Let's Work Together
         </h1>
 
-        {/* Right side */}
+     
         <div className="flex-1 text-center sm:text-right">
           <p className="text-sm mb-4 max-w-lg mx-auto sm:mx-0 sm:text-right">
             Avanta team quickly understood our business requirements
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Middle Section */}
+      
       <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row sm:justify-between gap-6  border-t border-gray-700 pt-7">
         <div className="flex-1 min-w-[200px]">
           <h3 className="text-lg mb-2">Averix</h3>
@@ -71,15 +71,14 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section */}
-      {/* Bottom Section */}
+     
       <div className="mt-10 border-t border-gray-700 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-        {/* Left side text */}
+  
         <p className="text-sm text-center sm:text-left">
           All rights reserved - 2024 © Huraytheme
         </p>
 
-        {/* Right side icons */}
+   
         <div className="flex gap-5 justify-center sm:justify-end text-xl">
           <FaSquareXTwitter className="hover:text-gray-400 cursor-pointer" />
           <FaInstagramSquare className="hover:text-gray-400 cursor-pointer" />

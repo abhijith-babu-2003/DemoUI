@@ -4,10 +4,10 @@ import earth from '../assets/Maskgroup.webp';
 const BackGround = () => {
   return (
     <section className="w-full bg-gray-100 relative overflow-hidden px-6 md:px-20 py-24 grid md:grid-cols-2 items-center gap-12">
-      {/* Subtle vertical stripes background */}
+
       <div className="absolute inset-0 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 bg-[length:40px_100%] opacity-30" />
 
-      {/* Left Content */}
+
       <div className="relative z-10 text-center md:text-left">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight text-black">
           Bold Brands <br />
@@ -16,7 +16,7 @@ const BackGround = () => {
         </h1>
       </div>
 
-      {/* Right Image with caption */}
+ 
       <div className="relative z-10 flex flex-col items-center md:items-end text-center md:text-right mt-10 md:mt-0">
         <img
           src={earth}

@@ -5,7 +5,7 @@ const Questions = () => {
   return (
     <section className="bg-gray-100 px-4 sm:px-8 md:px-20 py-12 font-sans">
       <div className="flex flex-col md:flex-row gap-8">
-        {/* Left Side - Header */}
+   
         <div className="md:w-1/2 pb-4 md:pr-8 flex flex-col justify-center">
           <p className="text-gray-600 text-sm mb-2">--Question</p>
           <h1 className="text-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-snug">
@@ -14,7 +14,7 @@ const Questions = () => {
           </h1>
         </div>
 
-        {/* Right Side - Questions List */}
+
         <div className="md:w-1/2 flex flex-col gap-2 sm:gap-4">
           <ul className="flex flex-col gap-2 sm:gap-4">
             <li className="border-b flex justify-between items-center py-2 cursor-pointer">

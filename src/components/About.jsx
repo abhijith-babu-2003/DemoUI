@@ -1,6 +1,8 @@
 import React from "react";
 import star from '../assets/Group.webp';
 import clients from '../assets/Clients.webp';
+import pexelOne from '../assets/pexelsOne.webp'
+import pexelTwo from '../assets/pexelsTwo.webp'
 
 const About = () => {
   return (
@@ -26,12 +28,12 @@ const About = () => {
           {/* Images Row */}
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-6 mb-8 justify-center md:justify-start">
             <img
-              src="https://images.pexels.com/photos/33839225/pexels-photo-33839225.jpeg"
+              src={pexelOne}
               alt="Work 1"
               className="w-full sm:w-40 h-48 md:w-48 md:h-56 rounded-lg object-cover"
             />
             <img
-              src="https://images.pexels.com/photos/3607542/pexels-photo-3607542.jpeg"
+              src={pexelTwo}
               alt="Work 2"
               className="w-full sm:w-40 h-48 md:w-48 md:h-56 rounded-lg object-cover"
             />
