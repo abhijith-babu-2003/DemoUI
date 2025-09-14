@@ -45,7 +45,7 @@ const Header = () => {
         <div className="flex items-center gap-3">
           {/* WhatsApp Icon */}
           <a
-           href="https://wa.me/919207257133"
+            href="https://wa.me/919207257133"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-500 text-2xl hover:text-green-600"
@@ -94,14 +94,14 @@ const Header = () => {
 
           {/* WhatsApp + Button */}
           <div className="flex items-center justify-center gap-4 mt-4">
-          <a
-  href={`https://wa.me/919207257133?text=${message}`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-green-500 text-2xl hover:text-green-600"
->
-  <FaWhatsapp />
-</a>
+            <a
+              href={`https://wa.me/919207257133?text=${message}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-500 text-2xl hover:text-green-600"
+            >
+              <FaWhatsapp />
+            </a>
             <button
               onClick={() => navigate("/contact")}
               className="flex items-center justify-center gap-2 bg-black text-white px-4 py-2 rounded-full font-medium hover:bg-gray-800 transition"
