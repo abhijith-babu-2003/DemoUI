@@ -98,7 +98,7 @@ const Contact = () => {
               <span className="font-semibold">Email:</span> hello@averix.com
             </p>
             <p className="text-gray-700">
-              <span className="font-semibold">Phone:</span> +91 98765 43210
+              <span className="font-semibold">Phone:</span> +91 9249232588
             </p>
             <p className="text-gray-700">
               <span className="font-semibold">Address:</span> Kochi, Kerala,

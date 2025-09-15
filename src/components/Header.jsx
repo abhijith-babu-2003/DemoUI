@@ -8,7 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
-  const message = encodeURIComponent("Hello! I want to get in touch.");
+  const message = encodeURIComponent("Hello!.. I want to get in touch.😊");
 
   return (
     <header className="w-full bg-gray-100 px-6 py-4 flex items-center justify-between shadow-sm">
@@ -45,7 +45,7 @@ const Header = () => {
         <div className="flex items-center gap-3">
           {/* WhatsApp Icon */}
           <a
-            href="https://wa.me/919207257133"
+            href={`https://wa.me/918078788100?text=${message}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-500 text-2xl hover:text-green-600"
@@ -95,7 +95,7 @@ const Header = () => {
           {/* WhatsApp + Button */}
           <div className="flex items-center justify-center gap-4 mt-4">
             <a
-              href={`https://wa.me/919207257133?text=${message}`}
+              href={`https://wa.me/918078788100?text=${message}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-500 text-2xl hover:text-green-600"
